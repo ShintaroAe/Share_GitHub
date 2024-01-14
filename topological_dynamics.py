@@ -534,6 +534,7 @@ class LoschmidtEcho:
         self.params_list = result
         self.time_list = np.linspace(0, duration, steps+1)
         # return list_det
+        ##  memo
 
     def AR_ij(self, params, i, j, shots, statevector):
         '''
